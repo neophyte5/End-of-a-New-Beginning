@@ -219,10 +219,20 @@ buildings = {
 	}
 	
 	farm = {
-		show_on_map = 0
-		base_cost = 5000
+		show_on_map = 1
+		base_cost = 9400
+		military_production = 1
+		#general_production = 1
+		army_org_factor = 0.01
+		army_morale_factor = 0.003
+		dig_in_speed_factor = 0.005
+		production_speed_worker_complex_factor = 0.02
+		production_speed_supply_complex_factor = 0.05
+		supply_consumption_factor = -0.005
+		line_change_production_efficiency_factor = 0.025
+		industry_air_damage_factor = 0.01
 		icon_frame = 19
-		max_level = 10
+		max_level = 2
 		shares_slots = yes
 		value = 2
 		infrastructure_construction_effect = yes
